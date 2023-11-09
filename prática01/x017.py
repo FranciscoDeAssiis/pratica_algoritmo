@@ -16,4 +16,3 @@ if velocidade_veículo > 80:
     print(f'Ultrapassou a velocidade de 80Km. Você foi multado em R${valor_multa:,.2f}!')
 else:
     print('Digira com segurança!')
-
