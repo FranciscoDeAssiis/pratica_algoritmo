@@ -75,4 +75,3 @@ def fatorial(num):
 
 fatorial = fatorial(5)
 print(fatorial)
-
