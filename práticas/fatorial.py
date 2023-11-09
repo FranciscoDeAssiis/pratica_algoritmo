@@ -33,10 +33,10 @@
 # Parte 1: ---------------------------------------------------------------------
 print('Parte 1', '-'*20)
 
-# Para cada interação é retirado 1 do (n!) até (n!) seja igual a 1.
-
-for n in range(1, 5+1):
+# Para cada interação é retirado 1 da contagem do fatorial, até que seja igual a 1.
+for n in range(5, 0, -1):
     print(f'{n}!')
+# Para as partes seguintes, o loop será crescente (1, 2, 3, ...)
 
 
 # Parte 2: ---------------------------------------------------------------------
