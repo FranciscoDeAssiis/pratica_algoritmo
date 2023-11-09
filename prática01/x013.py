@@ -15,3 +15,4 @@ DESCONTO = 15
 novo_salário = salário + (DESCONTO * salário / 100)
 
 print(f'Novo salário com {DESCONTO}% de desconto: R$:{novo_salário:,.2f}')
+
