@@ -12,3 +12,4 @@
 
 nome = str(input('Como você se chama? \nEscreva: '))
 print(f'Seja bem-vindo(a), {nome}!')
+
