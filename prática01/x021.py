@@ -27,3 +27,4 @@ print(f'O ano {ano} {bissexto(ano)}')
 
 ano_atual = date.today().year
 print(f'\33[mO nosso ano {ano_atual} {bissexto(ano_atual)}')
+
