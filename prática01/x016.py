@@ -22,3 +22,4 @@ total_de_dias = total_de_minutos / 1440  # 1440 é igual 1 dia
 total_de_anos = total_de_dias / 365  # 365 é igual a 1 ano
 
 print(f'Perderá {total_de_dias:.0f} dias de vida.')
+
