@@ -19,3 +19,4 @@ PREÇO_POR_DIA = 90
 preço_total = km * PREÇO_POR_KM + dias_alugado * PREÇO_POR_DIA
 
 print(f'Total a pagar: R$:{preço_total:,.2f}')
+
