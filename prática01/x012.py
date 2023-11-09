@@ -34,3 +34,4 @@ desconto = 5 * produto[1] / 100
 preço_promocional = produto[1] - desconto
 
 print(f'\33[1;32mO produto {produto[0]} com um desconto de 5%(R${desconto}) tem seu preço reduzido de US${produto[1]:.2f} para US${preço_promocional:.2f}.')
+

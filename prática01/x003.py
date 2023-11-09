@@ -17,3 +17,4 @@ nome_funcionario = str(input('Nome: '))
 salario_funcionario = float(input('Salário: '))
 
 print(f'O funcionario \33[33m{nome_funcionario}\33[m tem um salário de \33[32mR${salario_funcionario:.2f}\33[m em {data[1]}.')
+
