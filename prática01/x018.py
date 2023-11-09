@@ -21,3 +21,4 @@ else:
     print('\33[31mNão pode votar!')
 
 print(f'Idade: {idade} anos')
+
