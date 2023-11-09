@@ -30,11 +30,10 @@
 # n! = n * (n - 1)
 
 
-# Para cada interação é retirado 1 do (n!) até (n!) seja igual a 1.
-
-
 # Parte 1: ---------------------------------------------------------------------
 print('Parte 1', '-'*20)
+
+# Para cada interação é retirado 1 do (n!) até (n!) seja igual a 1.
 
 for n in range(1, 5+1):
     print(f'{n}!')
@@ -45,6 +44,8 @@ print('\nParte 2', '-'*20)
 
 fatorial = 1  # 1! = 1
 for n in range(1, 5+1):
+
+    # Para cada interação, o novo fatorial é calculado e exibido:
     produto = fatorial * n
     print(produto)
 
@@ -69,7 +70,10 @@ def fatorial(num):
     for n in range(1, num + 1):
         # n * (n - 1)
         # n * n
-        fat = fat * n
+
+        # Para cada interação, um novo fatorial é calculado e somado com o produto anterior da multiplicação:
+        fat = fat * n  # fat *= n
+
     return fat
 
 
