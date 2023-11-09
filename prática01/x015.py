@@ -18,3 +18,4 @@ salario_diario = HORAS_POR_DIA * SALARIO_POR_HORA
 salario_mensal = dias_tabalhados * salario_diario
 
 print(f'Salário de R${salario_mensal} por {dias_tabalhados} dias trabalhados.')
+
