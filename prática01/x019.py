@@ -22,3 +22,4 @@ elif media > 5:
     print('Recuperação!')
 else:
     print('Reprovado!')
+
